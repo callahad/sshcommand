@@ -1,0 +1,6 @@
+sshcommand (0.0.1-1) unstable; urgency=low
+
+  * Initial Debian packaging from upstream commit
+    e6d1655ffb4e381910d14eeb92dd9b32456a5fd2 on 2015-01-01
+
+ -- Dan Callahan <dan.callahan@gmail.com>  Thu, 05 Nov 2015 10:20:50 -0600

@@ -1,0 +1,4 @@
+files
+sshcommand.substvars
+sshcommand.debhelper.log
+sshcommand/*

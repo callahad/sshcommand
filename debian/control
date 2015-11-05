@@ -1,0 +1,17 @@
+Source: sshcommand
+Section: admin
+Priority: optional
+Maintainer: Dan Callahan <dan.callahan@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Homepage: https://github.com/progrium/sshcommand
+Vcs-Git: https://github.com/callahad/sshcommand.git
+Vcs-Browser: https://github.com/callahad/sshcommand
+
+Package: sshcommand
+Architecture: all
+Depends: ${misc:Depends}, adduser, openssh-client
+Recommends: openssh-server
+Description: simplify running a single command over ssh
+ Simplifies running a single command over SSH, and manages authorized keys
+ (ACL) and users in order to do so. 
